@@ -14,7 +14,8 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		Dictionary dictionary = new Dictionary("dictionary_EN.txt", Language.ENGLISH);
+		// Dictionary dictionary = new Dictionary("dictionary_EN.txt", Language.ENGLISH);
+		Dictionary dictionary = Dictionary.chooseDictionary();
 		
 		LetterGrid grid = readGrid();
 		
